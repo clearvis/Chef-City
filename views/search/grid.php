@@ -52,7 +52,7 @@
 					    'class'=>'product_cell_label',
 							'onclick'=>'window.location.href=\''.$objProduct->Link.'\''
 						),
-				        CHtml::link(_xls_truncate($objProduct->Title , 50), $objProduct->Link).
+				        CHtml::link(_xls_truncate($objProduct->WebShortDescription , 50), $objProduct->Link).
 					        CHtml::tag('span',array('class'=>'product_cell_price_slash'),$objProduct->SlashedPrice).
 					        CHtml::tag('span',array('class'=>'product_cell_price'),$objProduct->Price)
 		            )
