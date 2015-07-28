@@ -60,5 +60,17 @@
 				<?php $this->widget('application.extensions.'._xls_get_conf('PROCESSOR_LANGMENU').'.'._xls_get_conf('PROCESSOR_LANGMENU')); ?>
 				</div>
 		<?php endif; ?>
+		<div class="social-buttons">
+           <!-- Facebook -->
+          <a href="https://www.facebook.com/ChefCityEquipment" title="Like Chef City on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+          <!-- Google+ -->
+          <a href="https://plus.google.com/u/0/+ChefCityEquipmentCorporationWhitePlains/posts" title="Review Chef City on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i></a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/ChefCityCorp" title="Follow Chef City on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+          <!-- Yelp -->
+          <a href="http://www.yelp.com/biz/chef-city-white-plains" title="Tell Chef City how we are doing on Yelp" target="_blank" class="btn btn-yelp"><i class="fa fa-yelp"></i></a>
+          <!-- Instagram --> 
+          <a href="https://foursquare.com/v/chef-city/513281c1e4b0680a846cde5e" title="Checkin on Foursquare" target="_blank" class="btn btn-foursquare"><i class="fa fa-foursquare"></i></a>
+        </div>
 	</div>
 </div>

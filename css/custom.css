@@ -1,0 +1,58 @@
+.home-featured-products {
+    padding-left: 2%;
+}
+
+.home-featured-products .category-cell {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.home-featured-products .category-cell img {
+    float: left;
+    margin-right: 16px;
+}
+
+.home-featured-products .category-cell a.btn {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: #ffffff;
+    text-decoration: none !important;
+    background: rgba(9, 94, 147, 1);
+    -webkit-transition: background .5s; 
+    transition: background .5s;
+}
+
+.home-featured-products .category-cell a.btn:hover,
+.home-featured-products .category-cell a.btn:focus {
+    background: rgba(9, 94, 147, .8);
+}
+#menutree li {
+  margin-bottom: 0;
+  -webkit-transition: background-color 300ms;
+    transition: background-color 300ms;
+}
+#menutree li:hover {
+  background-color: ghostwhite;
+}
+#menutree > li > a {
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+}
+#menutree li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Override for product labels to span two lines */
+.product_cell_label a {
+  display: block;
+  white-space: normal;
+  text-overflow: inherit;
+}
